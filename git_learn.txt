@@ -32,3 +32,6 @@ git reset --hard HEAD^  ╩ьмкиор╩╦Ж╟Ф╠╬ HEAD^^╩ьмкиоио╦Ж╟Ф╠╬ HEAD~100╩ьмк╣╫ио100╦
 git reset --hard ╟Ф╠╬id
 
 git reflog ╡И©╢юЗй╥цЭаН
+
+git rm filename.txt и╬ЁЩнд╪Ч
+git checkout -- filename.txt  ╩ж╦╢и╬ЁЩ╣днд╪Ч
