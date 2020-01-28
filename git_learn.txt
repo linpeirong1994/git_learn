@@ -22,4 +22,13 @@ git diff 查看最近修改内容 查看不同 git difference
 
 5、提交修改的文件与提交新文件一样。
 
-0000001111
+6、版本回退
+git log 查看提交的版本
+git log --pretty=oneline
+(HEAD) 表示当前版本
+
+git reset --hard HEAD^  回退上一个版本 HEAD^^回退上上个版本 HEAD~100回退到上100个版本
+回退版本后想回退回最新的版本，需要版本id（不需要全）
+git reset --hard 版本id
+
+git reflog 查看每次命令
