@@ -1,6 +1,6 @@
 1、设置用户名及用户邮箱
 git config --global user.name ""
-git config --global user.email "" 1111
+git config --global user.email ""
 
 2、创建空目录，创建版本库
 前进 cd
@@ -35,3 +35,12 @@ git reflog 查看历史命令
 
 git rm filename.txt 删除文件
 git checkout -- filename.txt  恢复删除的文件
+
+7、远程github库
+本地创建ssh密钥 $ ssh-keygen -t rsa  "lpr722@aliyun.com"
+创建github账号，将.ssh/id_rsa.pub中的文件（公钥）复制的到github中的ssh中
+创建一个库并连接  $ git remote add origin https://github.com/linpeirong1994/git_learn.git
+将本地库推到github库 git push -u origin master
+
+8、克隆库
+git clone git@github.com/linpeirong1994/git_learn.git
