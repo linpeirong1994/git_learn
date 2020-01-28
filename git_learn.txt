@@ -1,0 +1,12 @@
+1、设置用户名及用户邮箱
+git config --global user.name ""
+git config --global user.email ""
+
+2、创建空目录，创建版本库
+前进 cd
+显示目录 pwd
+创建目录 mkdir
+当前目录创建管理库 git init
+显示隐藏文件 ls -ah
+PS 只能跟踪文本文件改动
+
