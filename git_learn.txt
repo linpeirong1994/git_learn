@@ -1,6 +1,6 @@
 1、设置用户名及用户邮箱
 git config --global user.name ""
-git config --global user.email ""
+git config --global user.email "" 1111
 
 2、创建空目录，创建版本库
 前进 cd
@@ -10,3 +10,12 @@ git config --global user.email ""
 显示隐藏文件 ls -ah
 PS 只能跟踪文本文件改动
 
+3、上传
+git add file.txt 
+git commit -m "shangchuanshuoming"
+add 添加上传文件
+commit 提交上传文件
+-m 添加说明
+
+4、git status 查看状态
+git diff 查看最近修改内容 查看不同 git difference
