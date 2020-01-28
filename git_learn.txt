@@ -19,3 +19,5 @@ commit 提交上传文件
 
 4、git status 查看状态
 git diff 查看最近修改内容 查看不同 git difference
+
+5、提交修改的文件与提交新文件一样。
